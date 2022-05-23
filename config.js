@@ -3,7 +3,8 @@ module.exports = {
         rchannel: '976517617995104277',
         px: '.',
         token: 'ODIwMzczNTczMTU5NjE2NTg0.GrFYtm.zMqv0S4qggsJdNn-YWiTeLP9E2wtl5CLCOdddU',
-        playing: 'Berkay 💖 Selim',
+        activity: 'Berkay 💖 Selim',
+        status: 'dnd',
 
     opt: {
         DJ: {

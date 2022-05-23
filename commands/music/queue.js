@@ -20,7 +20,7 @@ module.exports = {
         embed.setThumbnail(message.guild.iconURL({ size: 2048, dynamic: true }));
         embed.setAuthor(`Sunucu Müzik Listesi - ${message.guild.name}`, client.user.displayAvatarURL({ size: 1024, dynamic: true }));
 
-        const tracks = queue.tracks.map((track, i) => `**${i + 1} - ${track.title} | ${track.author}** **(Müziği açan: <@${track.requestedBy.id}>)**`);
+        const tracks = queue.tracks.map((track, i) => `${i + 1} - ${track.title} | ${track.author} (Müziği açan: <@${track.requestedBy.id}>)`);
 
         const songs = queue.tracks.length;
         const nextSongs = songs > 5 ? `**ve ${songs - 5} diğer şarkı...**` : `**Listede ${songs} şarkı var.**`;
